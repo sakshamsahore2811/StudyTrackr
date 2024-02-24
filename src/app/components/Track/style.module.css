@@ -1,0 +1,115 @@
+.gradientbackground {
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    background: linear-gradient(to right, #510396, #ef03e7); /* Adjust colors as needed */
+    /* You can adjust gradient direction and colors */
+    /* For example, 'to right' means the gradient goes from left to right */
+        
+  }
+
+.clock{
+    position:absolute;
+    left:43px;
+    top:33px;
+}
+.heading{
+    /* Track */
+
+position: absolute;
+width: 123px;
+height: 66px;
+left: 574px;
+top: 995px;
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 300;
+font-size: 46px;
+line-height: 69px;
+
+color: #FFFFFF;
+
+
+}
+
+.card1{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 102px;
+top: 1121px;
+
+background: rgba(217, 217, 217, 0.07);
+border-radius: 30px;
+
+}
+
+.textcard1{
+    position: absolute;
+    color:white;
+    font-family: "Poppins";
+    font-size:large;
+    top:1397px;
+    left:115px;
+}
+
+.card2{
+    /* Rectangle 12 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 488px;
+top: 1121px;
+
+background: rgba(217, 217, 217, 0.11);
+border-radius: 30px;
+
+
+}
+
+.calendar{
+    position: absolute;
+    left:42px;
+    top: 25px;
+}
+
+.textcard2{
+    position: absolute;
+    color: white;
+    font-family: "Poppins";
+    font-size:large;
+    left: 533px;
+    top:1397px;
+}
+
+.card3{
+ /* Rectangle 13 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 875px;
+top: 1120px;
+
+background: rgba(217, 217, 217, 0.18);
+border-radius: 30px;
+
+}
+
+.tasks{
+    position: absolute;
+    left:42px;
+    top:37px;
+}
+
+.textcard3{
+    position:absolute;
+    color:white;
+    font-family: "Poppins";
+    font-size:large;
+    left:930px;
+    top:1397px;
+}

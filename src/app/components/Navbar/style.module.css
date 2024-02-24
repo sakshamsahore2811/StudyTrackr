@@ -1,0 +1,57 @@
+.login{
+    /* Log In */
+
+position: absolute;
+width: 86px;
+height: 30px;
+left: 1173px;
+
+
+font-family: 'Poppins';
+font-style:normal;
+font-weight: 1000;
+font-size: 18px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+}
+
+.signup{
+    /* Sign Up */
+
+position: absolute;
+width: 129px;
+height: 30px;
+left: 1081px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+}
+
+.aboutus{
+    /* Contact Us */
+
+position: absolute;
+width: 165px;
+height: 30px;
+left: 985px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+}

@@ -1,0 +1,57 @@
+.gradientbackground {
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    background: linear-gradient(to right, #510396, #ef03e7); /* Adjust colors as needed */
+    /* You can adjust gradient direction and colors */
+    /* For example, 'to right' means the gradient goes from left to right */
+    
+  }
+
+  .text{
+    font-family: 'Poppins';
+    font-size: 55px;
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    font-weight: 1;
+  }
+
+  .textsmall{
+    color: white;
+    position:absolute;
+    font-family: "Poppins";
+    font-style: italic;
+    left:538px;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  
+  .animatedtext1 {
+    animation: slide-in 3s ease ; /* Animation name, duration, timing function, iteration count */
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animatedtext2{
+  animation: move-in 3s ease;
+}
+
+@keyframes move-in {
+  0%{
+    transform:translateX(-100%);
+    opacity:0;
+  }
+  100%{
+    transform:translateX(0);
+    opacity:1;
+  }
+}

@@ -1,0 +1,30 @@
+.gradientbackground {
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    background: linear-gradient(to top, #e7b716, #ef03e7); /* Adjust colors as needed */
+    /* You can adjust gradient direction and colors */
+    /* For example, 'to right' means the gradient goes from left to right */
+        
+  }
+
+.heading{
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size:x-large;
+    font-family:"Poppins";
+    left:580px;
+    padding-top: 15%;
+
+}
+.conatiner{
+    position:absolute;
+    color: white;
+    font-family: "Poppins";
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20%;
+}
