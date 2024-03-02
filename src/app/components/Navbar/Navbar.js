@@ -5,9 +5,9 @@ const Navbar = () =>{
     <div>
         <div className={styles.aboutus}>
             <a href="#aboutus">About us</a>
-        </div>
+        </div>  
         <div className={styles.signup}>
-            <a href="/Application">Sign Up</a>
+            <a href="/">Sign Up</a>
         </div>
         <div className={styles.login}>
             <a href="/">Login</a>

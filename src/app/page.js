@@ -1,4 +1,5 @@
 'use client'
+import styles from './style.module.css';
 import Header from './components/Header/Header';
 import Visualize from './components/Visualize/Visualize';
 import Navbar from './components/Navbar/Navbar';
@@ -9,7 +10,8 @@ import Try from './components/Try/Try';
 
 export default function Home() {
     return(
-        <div>
+        <div className={styles.gradientbackground}>
+            
             <Navbar/>
             <Header/>
             <Visualize/>

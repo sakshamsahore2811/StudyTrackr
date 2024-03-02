@@ -8,7 +8,7 @@ const Header = () => {
         <div>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>
         <div className={styles.gradientbackground}><div className={styles.text}><div className={styles.animatedtext1}>Welcome to StudyTracker <Image src={hi} height={60} width={60}/></div></div> <br/>
-        <div className={styles.textsmall}><div className={styles.animatedtext2}><p>Today matters.</p></div></div>
+        <div className={styles.textsmall}><div className={styles.animatedtext2}>Today matters.</div></div>
         </div>
         </div>
         )

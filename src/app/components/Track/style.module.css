@@ -1,7 +1,7 @@
 .gradientbackground {
     width: 100%;
     height: 100vh; /* Adjust as needed */
-    background: linear-gradient(to right, #510396, #ef03e7); /* Adjust colors as needed */
+    background: linear-gradient(to top, #cf9ef9, #a12fe7);  /* Adjust colors as needed */
     /* You can adjust gradient direction and colors */
     /* For example, 'to right' means the gradient goes from left to right */
         
