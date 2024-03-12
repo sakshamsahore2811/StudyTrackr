@@ -1,10 +1,37 @@
 .gradientbackground {
     width: 100%;
     height: 65vh; /* Adjust as needed */
-    background: linear-gradient(to bottom, #cf9ef9, #a12fe7);  /* Adjust colors as needed */
+    background: linear-gradient(to bottom, #a16ecd, #a12fe7);/* Adjust colors as needed */
     /* You can adjust gradient direction and colors */
     /* For example, 'to right' means the gradient goes from left to right */
     
+  }
+  .headingtry{
+    position:absolute;
+    color:white;
+    font-size: x-large;
+    font-family: "Poppins";
+    justify-content: center;
+    text-align: center;
+    left:579px;
+    top:2165px;
+  }
+
+  .box{
+    /* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 190px;
+height: 69px;
+left: 533px;
+top: 2150px;
+
+background: rgba(217, 217, 217, 0.08);
+border: 3px solid #FFFFFF;
+border-radius: 30px;
+
   }
 
 .heading{

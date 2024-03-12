@@ -2,7 +2,15 @@ import React from "react";
 import styles from "./style.module.css";
 const Navbar = () =>{
     return(
-    <div>
+    <div className={styles.navbar}>
+        <div className={styles.leftlinks}>
+            <a href="/">Privacy Policy</a>
+            <a href="/">Blog</a>
+        </div>
+        <div className={styles.centerlink}>
+            Productivo
+        </div>
+        <div className={styles.rightlinks}>
         <div className={styles.aboutus}>
             <a href="#aboutus">About us</a>
         </div>  
@@ -11,6 +19,7 @@ const Navbar = () =>{
         </div>
         <div className={styles.login}>
             <a href="/">Login</a>
+        </div>
         </div>
         </div>
         

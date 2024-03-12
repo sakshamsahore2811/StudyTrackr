@@ -9,16 +9,12 @@ import Plan from './components/Plan/Plan';
 import Try from './components/Try/Try';
 
 export default function Home() {
-    return(
-        <div className={styles.gradientbackground}>
-            
-            <Navbar/>
+    return(<div>
             <Header/>
             <Visualize/>
             <Track/>
             <Plan/>
-            <Try/>
             <AboutUs/>
-        </div>
+            </div>
     )
 }

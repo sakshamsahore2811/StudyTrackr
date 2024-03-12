@@ -1,11 +1,47 @@
 .gradientbackground {
-    width: 100%;
-    height: 100vh; /* Adjust as needed */
-    background: linear-gradient(to top, #cf9ef9, #a12fe7);  /* Adjust colors as needed */
-    /* You can adjust gradient direction and colors */
-    /* For example, 'to right' means the gradient goes from left to right */
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  background: linear-gradient(to top, #a16ecd, #a12fe7);  /* Adjust colors as needed */
+  /* You can adjust gradient direction and colors */
+  /* For example, 'to right' means the gradient goes from left to right */
+      
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Aligns children to the start, center, and end of the flex container */
+  align-items: center; /* Aligns children vertically at the center */
+  padding: 10px;
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+
+          
     
-  }
+  
+}
+
+.leftlinks, .rightlinks {
+  display: flex;
+  font-size: medium;
+}
+
+.leftlinks a, .rightlinks a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.centerlink {
+  font-size: x-large;
+  text-align: center;
+}
+
+.centerlink a {
+  color: white;
+  text-decoration: none;
+}
 
   .text{
     font-family: 'Poppins';

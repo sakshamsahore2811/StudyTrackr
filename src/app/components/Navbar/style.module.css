@@ -1,61 +1,39 @@
-.login{
-    /* Log In */
 
-position: absolute;
-width: 86px;
-height: 30px;
-left: 1173px;
-
-
-font-family: 'Poppins';
-font-style:normal;
-font-weight: 1000;
-font-size: 18px;
-line-height: 42px;
-
-color: #FFFFFF;
-
-
-}
-.a{
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Aligns children to the start, center, and end of the flex container */
+    align-items: center; /* Aligns children vertically at the center */
+    padding: 10px;
     color: white;
-}
-
-.signup{
-    /* Sign Up */
-
-position: absolute;
-width: 129px;
-height: 30px;
-left: 1081px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 42px;
-
-color: #FFFFFF;
-
-
-}
-
-.aboutus{
-    /* Contact Us */
-
-position: absolute;
-width: 165px;
-height: 30px;
-left: 985px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 42px;
-
-color: #FFFFFF;
-
-
-}
-
+    font-family: "Poppins";
+    font-size: 12px;
+        width: 100%;
+        height: 100vh; /* Adjust as needed */
+        background: linear-gradient(to bottom, #cf9ef9, #a12fe7);  /* Adjust colors as needed */
+        /* You can adjust gradient direction and colors */
+        /* For example, 'to right' means the gradient goes from left to right */
+            
+      
+    
+  }
+  
+  .leftlinks, .rightlinks {
+    display: flex;
+  }
+  
+  .leftlinks a, .rightlinks a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .centerlink {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .centerlink a {
+    color: white;
+    text-decoration: none;
+  }
+  
