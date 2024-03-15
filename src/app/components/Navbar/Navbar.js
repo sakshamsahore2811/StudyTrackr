@@ -8,7 +8,7 @@ const Navbar = () =>{
             <a href="/">Blog</a>
         </div>
         <div className={styles.centerlink}>
-            Productivo
+            Scholar Mate
         </div>
         <div className={styles.rightlinks}>
         <div className={styles.aboutus}>
