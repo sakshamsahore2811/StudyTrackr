@@ -12,7 +12,7 @@ const Header = () => {
             <a href="/">Blog</a>
         </div>
         <div className={styles.centerlink}>
-            Productivo
+            Productivo AI
         </div>
         <div className={styles.rightlinks}>
         <div className={styles.aboutus}>
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         </div>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>
-        <div className={styles.text}><div className={styles.animatedtext1}>Let's make the day productive <Image src={hi} height={60} width={60}/></div></div> <br/>
+        <div className={styles.text}><div className={styles.animatedtext1}>Make the day productive</div></div> <br/>
         <div className={styles.textsmall}><div className={styles.animatedtext2}>Today matters.</div></div>
         </div>
 

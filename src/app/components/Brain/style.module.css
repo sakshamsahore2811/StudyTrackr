@@ -1,0 +1,27 @@
+.container{
+    padding-top:200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.image{
+    transition: transform 0.5s ease; 
+}
+
+.imgcontainer:hover .image {
+    content: url(../../../../public/images/brain.png);
+    height:400px;
+    width:400px; 
+    /* Change the image source on hover */
+  }
+
+.text{
+    font-family: "Poppins";
+    font-size:70px;
+    padding-left: 100px;
+}
+.arrow{
+    padding-top: 30px;
+    font-family: "Poppins";
+    font-size: 30px;
+}

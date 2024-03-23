@@ -3,17 +3,32 @@ import styles from "./style.module.css";
 import Image from 'next/image';
 import pie from "../../../../public/images/piegraph.png";
 import bar from "../../../../public/images/bargraph.png";
-import line from "../../../../public/images/linegraph.png";
+import calendar from "../../../../public/images/calendar.png";
+import Link from 'next/link';
 
 const Visualize= () =>{
     return(
-        <div className={styles.gradientbackground}>
-        <div className={styles.heading}>Visualize</div>
+        <>
+        <div className={styles.heading}>Record, Track, Plan</div>
         <br/>
-        <div className={styles.card1}><Image src={pie} height={283} width={283}/></div><br/><div className={styles.textcard1}>Study progress at a glance</div>
-        <div className={styles.card2}></div><div className={styles.bar}><Image src={bar} height={233} width={233}/></div><br/><div className={styles.textcard2}>Visual representation</div>
-        <div className={styles.card3}></div><div className={styles.line}><Image src={line} height={200} widht={200}/></div><br/><div className={styles.textcard3}>Daily motivation</div>
-    </div>
+        <div className={styles.cardscontainer}>
+            <div className={styles.card}>
+                <div className={styles.pie}>
+        <Image src={pie} height={100} width={100}/></div><br/><div className={styles.cardtext}>Study progress at a glance</div>
+        </div>
+        <div className={styles.card}>
+        <div className={styles.bar}><Image src={bar} height={150} width={100}/></div><br/><div className={styles.cardtext}>Visual representation</div>
+        </div>
+        <div className={styles.card}>
+            <div className={styles.line}><Image src={calendar} height={100} width={100}/></div><br/><div className={styles.cardtext}>Daily motivation</div>
+        </div>
+        </div>
+        <div className={styles.try}>
+            <div className={styles.button}>
+                 Try it out
+            </div>
+            </div>
+    </>
     )
 }
 

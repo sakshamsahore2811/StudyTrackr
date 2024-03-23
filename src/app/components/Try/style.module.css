@@ -6,7 +6,9 @@
     /* For example, 'to right' means the gradient goes from left to right */
         
   }
-
+.try{
+  padding-top: 190px;
+}
   .heading{
     position:absolute;
     color:white;
