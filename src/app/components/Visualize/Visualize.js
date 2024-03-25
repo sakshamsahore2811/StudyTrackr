@@ -25,7 +25,7 @@ const Visualize= () =>{
         </div>
         <div className={styles.try}>
             <div className={styles.button}>
-                 Try it out
+                 <a href="https://productivo-application.vercel.app/">Try it out</a>
             </div>
             </div>
     </>

@@ -76,3 +76,7 @@
   .button:hover {
     background-color: #dcb4e9; /* Darker green */
   }
+
+  .a{
+    color: white;
+  }

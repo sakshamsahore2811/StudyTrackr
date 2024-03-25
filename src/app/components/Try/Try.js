@@ -7,7 +7,7 @@ const Try = () =>{
         <div className={styles.gradientbackground}>
             <div className={styles.box}></div>
             <div className={styles.heading}>
-                 <Link href="/">Try it out</Link>
+                 <Link href="https://productivo-application.vercel.app/">Try it out</Link>
                 </div>
                 </div>
     )
