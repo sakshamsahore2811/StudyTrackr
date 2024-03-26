@@ -77,6 +77,7 @@
     background-color: #dcb4e9; /* Darker green */
   }
 
-  .a{
+  .button a{
+    font-family: "Poppins";
     color: white;
   }

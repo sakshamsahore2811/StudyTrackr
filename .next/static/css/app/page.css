@@ -1,0 +1,913 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Header/style.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.style_gradientbackground__dQZfm {
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  background: linear-gradient(to top, #a16ecd, #a12fe7);  /* Adjust colors as needed */
+  /* You can adjust gradient direction and colors */
+  /* For example, 'to right' means the gradient goes from left to right */
+      
+}
+
+
+.style_navbar__nRO_y {
+  display: flex;
+  justify-content: space-between; /* Aligns children to the start, center, and end of the flex container */
+  align-items: center; /* Aligns children vertically at the center */
+  padding: 10px;
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+
+          
+    
+  
+}
+
+.style_leftlinks__FDiBu, .style_rightlinks__G8wZ4 {
+  display: flex;
+  font-size: medium;
+}
+
+.style_leftlinks__FDiBu a, .style_rightlinks__G8wZ4 a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.style_centerlink__gXPeT {
+  font-size: x-large;
+  text-align: center;
+}
+
+.style_centerlink__gXPeT a {
+  color: white;
+  text-decoration: none;
+}
+
+  .style_text__shFPr{
+    font-family: 'Poppins';
+    font-size: 75px;
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    font-weight: 1;
+  }
+
+  .style_textsmall__NTBUu{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 10;
+    font-size: 25px;
+  }
+  
+  .style_animatedtext1__U_BId {
+    animation: style_slide-in__KDCJf 3s ease; /* Animation name, duration, timing function, iteration count */
+}
+
+@keyframes style_slide-in__KDCJf {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.style_animatedtext2__AXxEw{
+  animation: style_move-in__vodIE 3s ease;
+}
+
+@keyframes style_move-in__vodIE {
+  0%{
+    transform:translateX(-100%);
+    opacity:0;
+  }
+  100%{
+    transform:translateX(0);
+    opacity:1;
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Visualize/style.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+/* Visualize */
+.style_heading__azaZY {
+  padding-top: 100px;
+  padding-bottom: 140px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 66px;
+    line-height: 69px;
+    color: #a12fe7;
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+  
+  /* Cards Container */
+  .style_cardscontainer__gNzru {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+  
+  /* Card Styles */
+  .style_card__7afUY {
+    width: 284px;
+    height: 329px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgb(197, 163, 213); 
+  }
+  
+  .style_card__7afUY img {
+    width: 70%;
+    height: auto;
+    padding-left: 45px;
+    border-radius: 30px 30px 0 0; /* Adjust border-radius to match card */
+  }
+  
+  .style_cardtext__pwnaa {
+    font-family: 'Poppins';
+    color: black;
+    font-style:italic;
+    font-size: large;
+    text-align: center;
+    padding: 15px; /* Adjust padding as needed */
+  }
+
+  .style_pie__Sjggl{
+    margin-top:10px;
+  }
+  
+  .style_bar__B6C9w{
+    margin-top:10px;
+  }
+  /* Adjust individual card positions if necessary */
+  .style_a__D2v5Y{
+    color: white;
+  }
+  .style_try__FYN34{
+    padding-top: 190px;
+    text-align: center;
+  }
+  .style_button__MzTWp {
+    font-family: "Poppins";
+    padding-top: 200px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 76px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #a12fe7; /* Green */
+    transition: background-color 0.3s ease;
+  }
+  
+  .style_button__MzTWp:hover {
+    background-color: #dcb4e9; /* Darker green */
+  }
+
+  .style_button__MzTWp a{
+    font-family: "Poppins";
+    color: white;
+  }
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Navbar/style.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+
+.style_navbar__cnLYx {
+    display: flex;
+    justify-content: space-between; /* Aligns children to the start, center, and end of the flex container */
+    align-items: center; /* Aligns children vertically at the center */
+    padding: 10px;
+    color: white;
+    font-family: "Poppins";
+    font-size: 12px;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    background: linear-gradient(to bottom, #c5b0d8, #a12fe7);
+    box-sizing: border-box  /* Adjust colors as needed */
+        /* You can adjust gradient direction and colors */
+        /* For example, 'to right' means the gradient goes from left to right */
+            
+      
+    
+  }
+  
+  .style_leftlinks__IAHvH, .style_rightlinks__5twL2 {
+    display: flex;
+  }
+  
+  .style_leftlinks__IAHvH a, .style_rightlinks__5twL2 a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .style_centerlink__t8DI5 {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .style_centerlink__t8DI5 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Track/style.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.style_gradientbackground__4KfvE {
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    background: linear-gradient(to top, #a16ecd, #a12fe7);  /* Adjust colors as needed */
+    /* You can adjust gradient direction and colors */
+    /* For example, 'to right' means the gradient goes from left to right */
+        
+  }
+
+.style_clock__rboNw{
+    position:absolute;
+    left:43px;
+    top:33px;
+}
+.style_heading__qdb_0{
+    /* Track */
+
+position: absolute;
+width: 123px;
+height: 66px;
+left: 574px;
+top: 995px;
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 300;
+font-size: 46px;
+line-height: 69px;
+
+color: #FFFFFF;
+
+
+}
+
+.style_card1__3jagc{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 102px;
+top: 1121px;
+
+background: rgba(217, 217, 217, 0.07);
+border-radius: 30px;
+
+}
+
+.style_textcard1__yD0zw{
+    position: absolute;
+    color:white;
+    font-family: "Poppins";
+    font-size:large;
+    top:1397px;
+    left:115px;
+}
+
+.style_card2__vXyAn{
+    /* Rectangle 12 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 488px;
+top: 1121px;
+
+background: rgba(217, 217, 217, 0.11);
+border-radius: 30px;
+
+
+}
+
+.style_calendar__yw_Q5{
+    position: absolute;
+    left:42px;
+    top: 25px;
+}
+
+.style_textcard2__WkSst{
+    position: absolute;
+    color: white;
+    font-family: "Poppins";
+    font-size:large;
+    left: 533px;
+    top:1397px;
+}
+
+.style_card3__CJXz8{
+ /* Rectangle 13 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 875px;
+top: 1120px;
+
+background: rgba(217, 217, 217, 0.18);
+border-radius: 30px;
+
+}
+
+.style_tasks__TiXIb{
+    position: absolute;
+    left:42px;
+    top:37px;
+}
+
+.style_textcard3__LGjFL{
+    position:absolute;
+    color:white;
+    font-family: "Poppins";
+    font-size:large;
+    left:930px;
+    top:1397px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/AboutUs/style.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.style_heading__V1GpS{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size:x-large;
+    font-family:"Poppins";
+    padding-top: 15%;
+
+}
+.style_conatiner__GkgMw{
+    color: black;
+    font-family: "Poppins";
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.style_footer__yjVbR{
+    text-align: center;
+    font-family: "Poppins";
+    color: rgb(135, 0, 224);
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Plan/style.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.style_gradientbackground__12_8X {
+    width: 100%;
+    height: 65vh; /* Adjust as needed */
+    background: linear-gradient(to bottom, #a16ecd, #a12fe7);/* Adjust colors as needed */
+    /* You can adjust gradient direction and colors */
+    /* For example, 'to right' means the gradient goes from left to right */
+    
+  }
+  .style_headingtry__mlolh{
+    position:absolute;
+    color:white;
+    font-size: x-large;
+    font-family: "Poppins";
+    justify-content: center;
+    text-align: center;
+    left:579px;
+    top:2165px;
+  }
+
+  .style_box__PuCol{
+    /* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 190px;
+height: 69px;
+left: 533px;
+top: 2150px;
+
+background: rgba(217, 217, 217, 0.08);
+border: 3px solid #FFFFFF;
+border-radius: 30px;
+
+  }
+
+.style_heading__FjepM{
+  position: absolute;
+  width: 123px;
+  height: 66px;
+  left: 574px;
+  top: 1560px;
+  
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 46px;
+  line-height: 69px;
+  
+  color: #FFFFFF;
+  
+}  
+
+.style_card1__Lh44P{
+  /* Rectangle 14 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 102px;
+top: 1703px;
+
+background: rgba(217, 217, 217, 0.07);
+border-radius: 30px;
+
+}
+
+.style_target__3vcDs{
+  position: absolute;
+  left:45px;
+  top:50px;
+}
+
+.style_textcard1__sY8vB{
+  color:white;
+  font-family: "Poppins";
+  font-size:large;
+  position: absolute;
+  left:49px;
+  top:220px;
+}
+
+.style_card2__OTbgZ{
+  /* Rectangle 15 */
+
+position: absolute;
+width: 284px;
+height: 329px;
+left: 488px;
+top: 1703px;
+
+background: rgba(217, 217, 217, 0.11);
+border-radius: 30px;
+
+}
+
+.style_people__O5FEN{
+  position: absolute;
+  left:25px;
+  top:30px;
+}
+
+.style_textcard2__k4loV{
+  position: relative;
+  color:white;
+  font-family: "Poppins";
+  font-size: large;
+  left:30px;
+  top:30px;
+}
+
+.style_card3__6RNEJ{
+  position: absolute;
+width: 284px;
+height: 329px;
+left: 875px;
+top: 1703px;
+
+background: rgba(217, 217, 217, 0.18);
+border-radius: 30px;
+}
+
+.style_brain__vgG81{
+  position: absolute;
+  left:30px;
+  top:30px;
+
+}
+
+.style_textcard3__vR2Uh{
+  position: absolute;
+  color:white;
+  font-family: "Poppins";
+  font-size: large;
+  top:230px;
+  left:15px;  
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Try/style.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.style_gradientbackground__s7_Uy {
+    width: 100%;
+    height: 20vh; /* Adjust as needed */
+    background: linear-gradient(to top, #a16ecd, #a12fe7); /* Adjust colors as needed */
+    /* You can adjust gradient direction and colors */
+    /* For example, 'to right' means the gradient goes from left to right */
+        
+  }
+.style_try__oGH4M{
+  padding-top: 190px;
+}
+  .style_heading__vHtg8{
+    position:absolute;
+    color:white;
+    font-size: x-large;
+    font-family: "Poppins";
+    justify-content: center;
+    text-align: center;
+    left:579px;
+    top:2185px;
+  }
+
+  .style_box__mg_QP{
+    /* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 190px;
+height: 69px;
+left: 533px;
+top: 2170px;
+
+background: rgba(217, 217, 217, 0.08);
+border: 3px solid #FFFFFF;
+border-radius: 30px;
+
+  }
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick-theme.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url(/_next/static/media/ajax-loader.0b80f665.gif) center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url(/_next/static/media/slick.25572f22.eot);
+    src: url(/_next/static/media/slick.25572f22.eot?#iefix) format('embedded-opentype'), url(/_next/static/media/slick.653a4cbb.woff) format('woff'), url(/_next/static/media/slick.6aa1ee46.ttf) format('truetype'), url(/_next/static/media/slick.f895cfdf.svg#slick) format('svg');
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Ss/style.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.style_container__rHx2X{
+    padding-top: 60px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Brain/style.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.style_container__HxK5x{
+    padding-top:200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.style_image__BeR4E{
+    transition: transform 0.5s ease; 
+}
+
+.style_imgcontainer__SHu_Z:hover .style_image__BeR4E {
+    content: url(/_next/static/media/brain.40f2dc0b.png);
+    height:400px;
+    width:400px; 
+    /* Change the image source on hover */
+  }
+
+.style_text__9hISP{
+    font-family: "Poppins";
+    font-size:70px;
+    padding-left: 100px;
+}
+.style_arrow__X538z{
+    padding-top: 30px;
+    font-family: "Poppins";
+    font-size: 30px;
+}
