@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 160px;
+}
+
+.img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.1); /* Increase the scale of the card on hover */
+  }

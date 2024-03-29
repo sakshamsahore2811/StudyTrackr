@@ -9,6 +9,7 @@ import Plan from './components/Plan/Plan';
 import Try from './components/Try/Try';
 import Ss from './components/Ss/Ss';
 import Brain from './components/Brain/Brain';
+import Snapshots from './components/Snapshots/Snapshots';
 
 export default function Home() {
     return(
@@ -19,7 +20,7 @@ export default function Home() {
             <Visualize/>
             {/* <Track/> */}
             {/* <Plan/> */}
-            
+            <Snapshots/>
             <AboutUs/>
             </div>
     )

@@ -2,16 +2,20 @@
     text-align: center;
     justify-content: center;
     color: black;
-    font-size:x-large;
+    font-size:40px;
+    font-weight: 600;
     font-family:"Poppins";
     padding-top: 15%;
 
 }
-.conatiner{
+.flex{
+    display: flex;
+}
+.container{
     color: black;
     font-family: "Poppins";
     justify-content: center;
-    text-align: center;
+    padding-left: 800px;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10%;

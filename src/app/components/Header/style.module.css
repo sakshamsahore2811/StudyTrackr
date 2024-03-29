@@ -16,10 +16,11 @@
   color: white;
   font-family: "Poppins";
   font-size: 12px;
-
-          
-    
-  
+}
+.signup{
+  background-color: #510f75;
+  border-radius: 5px;
+  padding:5px;
 }
 
 .leftlinks, .rightlinks {

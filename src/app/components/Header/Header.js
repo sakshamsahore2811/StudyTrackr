@@ -19,10 +19,7 @@ const Header = () => {
             <a href="#aboutus">About us</a>
         </div>  
         <div className={styles.signup}>
-            <a href="/">Sign Up</a>
-        </div>
-        <div className={styles.login}>
-            <a href="/">Login</a>
+            <a href="https://productivo-application.vercel.app" target="_blank">Try Beta →</a>
         </div>
         </div>
         </div>

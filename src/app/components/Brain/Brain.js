@@ -15,7 +15,7 @@ export default function Brain() {
         </div>
         </div>
         <div className={styles.text}>
-            Declutter your brain, Get Focused
+            Declutter your brain,<br/> Get Focused
             <div className={styles.arrow}>
         <Image src={arrowbrain} height={170} width={170}/>
         Hover !
