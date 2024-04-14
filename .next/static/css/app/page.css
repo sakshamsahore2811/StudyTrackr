@@ -913,7 +913,7 @@ border-radius: 30px;
 }
 
 .style_imgcontainer__SHu_Z:hover .style_image__BeR4E {
-    content: url(/_next/static/media/brain.40f2dc0b.png);
+    content: url(/_next/static/media/brain.e1541b4c.png);
     height:400px;
     width:400px; 
     /* Change the image source on hover */
@@ -936,6 +936,12 @@ border-radius: 30px;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 160px;
+}
+.style_heading__ggOTF{
+    font-family: "Poppins";
+    font-size:70px;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .style_img__ZrH1a{

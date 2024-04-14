@@ -9,7 +9,7 @@ import Link from 'next/link';
 const Visualize= () =>{
     return(
         <>
-        <div className={styles.heading}>Track, Record, Plan</div>
+        <div className={styles.heading}>Track - Record - Plan</div>
         <div className={styles.subheading}>Minus the chaos</div>
         <br/>
         <div className={styles.cardscontainer}>

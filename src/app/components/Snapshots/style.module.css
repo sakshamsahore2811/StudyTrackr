@@ -3,6 +3,12 @@
     padding-bottom: 20px;
     padding-top: 160px;
 }
+.heading{
+    font-family: "Poppins";
+    font-size:70px;
+    text-align: center;
+    padding-top: 100px;
+}
 
 .img{
     transition: transform 0.3s ease-in-out;

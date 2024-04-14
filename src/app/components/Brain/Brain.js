@@ -16,10 +16,10 @@ export default function Brain() {
         </div>
         <div className={styles.text}>
             Declutter your brain,<br/> Get Focused
-            <div className={styles.arrow}>
+            {/* <div className={styles.arrow}>
         <Image src={arrowbrain} height={170} width={170}/>
         Hover !
-    </div>
+    </div> */}
         </div>
         
     </div>
